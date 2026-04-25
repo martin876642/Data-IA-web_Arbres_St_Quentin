@@ -1,0 +1,28 @@
+# ─── R session ─────────────────────────────────────────────
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck/
+
+# ─── Outputs générés (pas versionnés) ──────────────────────
+outputs/figures/
+outputs/df_nettoye.rds
+outputs/export_IA.csv
+
+# ─── Système ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ─── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-*
+
+# ─── Cache R ───────────────────────────────────────────────
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
